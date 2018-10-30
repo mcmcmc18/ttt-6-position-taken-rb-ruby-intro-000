@@ -7,5 +7,5 @@ taken = false
 else
 taken = true
 end
-  # taken
+return taken
 
