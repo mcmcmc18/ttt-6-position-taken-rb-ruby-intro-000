@@ -3,7 +3,7 @@
 #position_taken?(board, index)
 if index == " " || " "
   return FALSE
-else return TRUE
+elsif return TRUE
 end
 
 
