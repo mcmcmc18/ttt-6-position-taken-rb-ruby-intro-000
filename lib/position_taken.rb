@@ -26,7 +26,7 @@ if (board[index] == " " || board[index] == " " || board[index] == "" ||
   board[index] == nil)
   return false
 end
-elsif board[index] == "X" || "O"
+elsif board[index] == "X" || board[index] ==  "O"
 return true
 end
 
