@@ -8,6 +8,7 @@ if (board[index] == " " || board[index] == " " || board[index] == "" ||
 end
 elsif board[index] == "X" || board[index] == "O"
 taken = true
+else taken = true
 end
 
 
