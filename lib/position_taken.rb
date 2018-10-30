@@ -2,13 +2,20 @@
 
 def position_taken?(board, index)
   taken = nil
-if (board[index] == " " || board[index] == " " || board[index] == "" || 
+if (board[index] == " " || board[index] == "  " || board[index] == "" || 
   board[index] == nil)
   taken = false
-end
-elsse board[index] == "X" || board[index] == "O"
+else board[index] == "X" || board[index] == "O"
 taken = true
-else taken = true
 end
 
+def position_taken?(board, index)
+  # basic solution:
 
+  # taken = nil
+  # if (board[index] ==  " " || board[index] == "" || board[index] == nil)
+  #   taken = false
+  # else
+  #   taken = true
+  # end
+  # taken
