@@ -4,10 +4,10 @@ def position_taken?(board, index)
   taken = nil
 if (board[index] == " " || board[index] == " " || board[index] == "" || 
   board[index] == nil)
-  return false
+  taken = false
 end
 elsif board[index] == "X" || board[index] == "O"
-return true
+taken = true
 end
 
 
